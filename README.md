@@ -1,6 +1,6 @@
 # Mi Primer Landing Page de un E-Commerce
 
-Este es mi primer proyecto de landing page para un e-commerce, desarrollado con **Angular 17.3.3**. En este proyecto, consumí datos desde una API falsa para mostrar productos y utilicé **Heroicons** para los íconos de la interfaz. El proyecto está desplegado en **Vercel**.
+Este es mi primer proyecto de landing page para un e-commerce, desarrollado con **Angular 17.3.3**. En este proyecto, consumí datos desde una API, llamada fakeApi, para mostrar productos y utilicé **Heroicons** para los íconos de la interfaz. El proyecto está desplegado en **Vercel**.
 
 ## Tecnologías Utilizadas
 
