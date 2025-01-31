@@ -50,7 +50,7 @@ Puedes acceder a la landing page desde el siguiente enlace: [TR1 Shop - Landing 
 
 ## Autor
 
-**Andrés Leiva**
+**Carlos Mendoza**
 
 ---
 
