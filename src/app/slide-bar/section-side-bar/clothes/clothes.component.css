@@ -1,0 +1,15 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Fija 4 columnas */
+  gap: 1rem;
+  padding: 1rem;
+}
+
+  
+  /* RESPONSIVE*/
+  @media (max-width: 768px) {
+    .product-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  

@@ -1,0 +1,18 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  body {
+    overflow: auto;  /* Permite desplazamiento */
+    scrollbar-width: none; /* Para Firefox */
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Para Chrome, Edge y Safari */
+  }

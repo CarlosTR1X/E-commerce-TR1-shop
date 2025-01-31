@@ -1,0 +1,35 @@
+<button class="toggle-btn" (click)="toggleSidebar()">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 hover">
+    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+  </svg>
+</button>
+<div class="sidebar" [class.open]="isOpen">
+  <nav class="menu">
+    <div class="title">
+      <fa-icon class="icon-SlideBar-Title" [icon]="faShopify" ></fa-icon>
+      <h1>Shop</h1>
+  <button class="toggle-btn-sideBar-close" (click)="toggleSidebar()"> 
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" class="size-6 rotate">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+    </svg>
+  </button>
+
+      </div>
+      <a class="hover" (click)="selectSection('jewelery')">
+       <fa-icon class="fa-icon-redes" [icon]="faGem" ></fa-icon>
+       Jewelery</a>
+       <a class="hover" (click)="selectSection('electronics')">
+         <fa-icon class="fa-icon-redes" [icon]="faMobile"></fa-icon> 
+         Tecnology</a>
+      <a class="hover" (click)="selectSection('mens')">
+        <fa-icon class="fa-icon-redes" [icon]="faShirt"></fa-icon> Men's clothes</a>
+      <a class="hover" (click)="selectSection('womens')">
+        <fa-icon class="fa-icon-redes" [icon]="faWandMagicSparkles"></fa-icon> 
+        Lady's clothes</a>
+    </nav>
+  </div>
+
+
+
+
+  

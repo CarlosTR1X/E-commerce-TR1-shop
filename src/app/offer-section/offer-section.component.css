@@ -1,0 +1,109 @@
+.offer {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    margin: 4rem auto; 
+    width: 90%;
+    height: auto; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 2rem; 
+    gap: 2rem; 
+}
+
+/* Div derecho (imagen) */
+.right-Div {
+    display: flex;
+    border-radius: 50px;
+    width: 23rem;
+    height: 20rem;
+    background-color: darkgrey;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-Div img {
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+
+.left-Div {
+    font-size: 20px;
+    display: flex;
+    border-radius: 50px;
+    width: 23rem;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center; 
+    gap: 1rem; 
+}
+
+.left-Div p {
+    color: forestgreen;
+}
+
+
+.left-Div button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.left-Div button:hover {
+    background-color: lightsalmon;
+    color: black;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .offer {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .right-Div,
+    .left-Div {
+        width: 80%; 
+        height: auto;
+    }
+
+    .left-Div {
+        font-size: 18px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .offer {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .right-Div,
+    .left-Div {
+        width: 100%; 
+    }
+
+    .left-Div button {
+        width: 80%;
+        font-size: 14px;
+    }
+}

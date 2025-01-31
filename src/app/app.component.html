@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header><app-header></app-header></header>
+  <app-slide-bar (sectionSelected)="onSectionSelected($event)"> </app-slide-bar>
+  <section class="hero">
+  </section>
+  <app-hero-section></app-hero-section>
+  <section>
+    @if (currentSection === 'jewelery') {
+    <app-home></app-home>
+    }
+    @if (currentSection === 'mens') {
+    <app-clothes></app-clothes>
+    }
+    @if (currentSection === 'electronics') {
+    <app-technology></app-technology>
+    }
+    @if (currentSection === 'womens') {
+    <app-beauty></app-beauty>
+    }
+  </section>
+  <section>
+    <app-brands-carousel></app-brands-carousel>
+  </section>
+  <app-vehicles-section></app-vehicles-section>
+  <section>
+    <app-offer-section></app-offer-section>
+  </section>
+  <footer>
+    <app-footer></app-footer>
+  </footer>
+
+</body>
+</html>
+<router-outlet />

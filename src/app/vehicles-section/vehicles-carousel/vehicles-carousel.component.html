@@ -1,0 +1,10 @@
+<div class="product-list">
+    <div class="card-Container" *ngFor="let vehicles of vehicles">
+      <app-card 
+        [productImage]="vehicles.image"
+        [productName]="vehicles.title"      
+        [productPrice]="vehicles.price"     
+        [extraInfo]="vehicles.description">
+      </app-card>
+    </div>
+  </div>

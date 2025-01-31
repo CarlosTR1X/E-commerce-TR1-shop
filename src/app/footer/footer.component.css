@@ -1,0 +1,7 @@
+.footer {
+    background-color: #000000; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center; /* Centrar texto */
+    padding: 15px 0; /* Espaciado arriba y abajo */
+    font-size: 14px;
+  }
