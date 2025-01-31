@@ -1,27 +1,59 @@
-# AngularCourse
+# Mi Primer Landing Page de un E-Commerce
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+Este es mi primer proyecto de landing page para un e-commerce, desarrollado con **Angular 17.3.3**. En este proyecto, consumí datos desde una API falsa para mostrar productos y utilicé **Heroicons** para los íconos de la interfaz. El proyecto está desplegado en **Vercel**.
 
-## Development server
+## Tecnologías Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular 17.3.3**: Framework de desarrollo frontend basado en TypeScript.
+  - [Sitio Oficial](https://angular.io/)
+- **API Fake**: Servicio de prueba para consumir datos ficticios de productos.
+  - [API Fake](https://fakestoreapi.com/)
+- **Heroicons**: Librería de íconos de Tailwind para mejorar la interfaz de usuario.
+  - [Heroicons](https://heroicons.com/)
+- **Vercel**: Plataforma de hosting para aplicaciones frontend con despliegue automático desde GitHub.
+  - [Vercel](https://vercel.com/)
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Landing page con diseño limpio y atractivo.
+- Consumo de datos desde una API para mostrar productos.
+- Íconos atractivos para mejorar la interfaz.
+- Optimizado para rendimiento y escalabilidad.
+- Desplegado en Vercel para acceso global.
 
-## Build
+## Acceso al Proyecto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Puedes acceder a la landing page desde el siguiente enlace: [TR1 Shop - Landing Page](https://tr1shop.vercel.app/)
 
-## Running unit tests
+## Instalación y Ejecución
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clona el repositorio en tu máquina local:
+   ```sh
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   ```
+2. Ingresa al directorio del proyecto:
+   ```sh
+   cd tu-repositorio
+   ```
+3. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+4. Ejecuta el servidor de desarrollo:
+   ```sh
+   ng serve
+   ```
+5. Abre tu navegador y visita:
+   ```
+   http://localhost:4200/
+   ```
 
-## Running end-to-end tests
+## Autor
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Andrés Leiva**
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+¡Si te gustó este proyecto, no dudes en darle una estrella ⭐ en GitHub!
+
+
